@@ -60,6 +60,7 @@ Note
 - [CLI Tools](#cli-tools)
 - [Homelab](#homelab)
 - [Development](#development)
+  - [Starter Templates](#starter-templates)
   - [Tracker Codebase](#tracker-codebase)
   - [API](#api)
   - [Libraries](#libraries)
@@ -109,12 +110,13 @@ Note
 
 ### BT Clients
 
-| Name | Interface | Language |
-|------|-----------|----------|
+| Name | Interface | Language | Note |
+|------|-----------|----------|------|
 | [rTorrent](https://github.com/jesec/rtorrent) | Daemon/TUI | C++ |
 | [Transmission](https://github.com/transmission/transmission) | Daemon/GUI/Web | C++ |
 | [qBittorrent](https://github.com/qbittorrent/qBittorrent) | Daemon/GUI/Web | C++ |
 | [Deluge](https://github.com/deluge-torrent/deluge) | Daemon/GUI/Web | Python |
+| [ChisBread/transmission_skip_patch](https://github.com/ChisBread/transmission_skip_patch) ![chinese] | | | Fast hash checking |  
 
 ### BT RSS
 
@@ -367,20 +369,31 @@ Note
 
 # Development
 
-- [Torrent file specification](http://www.bittorrent.org/beps/bep_0003.html)
+| Name |
+|------|
+| [Theory Wiki](https://wiki.theory.org/Main_Page) |
+| [Torrent file specification](http://www.bittorrent.org/beps/bep_0003.html) |
+
+## Starter Templates
+
+| Name | For | Features |
+|------|-----|----------|
+| [sabersalv/template-userscript](https://github.com/sabersalv/template-userscript) | UserScript | Typescript + Esbuild + Preact/JSX + Emotion + SVG loader + Prettier + Eslint + fetch polyfill |
 
 ## Tracker Codebase
 
-- [Torrent-Tracker-Platforms](https://github.com/HDVinnie/Torrent-Tracker-Platforms)
+| Name |
+|------|
+| [Torrent-Tracker-Platforms](https://github.com/HDVinnie/Torrent-Tracker-Platforms) |
 
 ## API
 
-| Name |
-|------|
+| Name | Note |
+|------|-------|
 | [TMDB API](https://developers.themoviedb.org) |
 | [OMDB API](http://www.omdbapi.com) |
 | [IMDB API](https://developer.imdb.com) |
-| [Douban API](https://github.com/zce/douban-api-docs/tree/f0847616a75e1dca5ee3e123166c5f2d9ee5acab) |
+| Douban Frodo API | [link1](https://github.com/ronggang/PT-Plugin-Plus/issues/584) [link2](https://github.com/zhanghai/Douya/issues/99) |
 
 ## Libraries
 
@@ -388,6 +401,7 @@ Note
 
 | Name |
 |------|
+| [Flood API](https://github.com/sabersalv/flood-api) |
 | [parse-torrent](https://github.com/webtorrent/parse-torrent) |
 | [magnet-uri](https://github.com/webtorrent/magnet-uri) |
 | [create-torrent](https://github.com/webtorrent/create-torrent) |
