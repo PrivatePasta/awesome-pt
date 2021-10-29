@@ -306,11 +306,12 @@ Note
 
 ### Upload Semi-Auto
 
-| Name |
-|------|
-| [Easy Upload](https://github.com/techmovie/easy-upload) |
-| [Auto Feed](https://github.com/tomorrow505/auto_feed_js) ![chinese] |
-| [PT种子搬运助手](https://greasyfork.org/zh-CN/scripts/402942-pt%E7%A7%8D%E5%AD%90%E6%90%AC%E8%BF%90%E5%8A%A9%E6%89%8B) ![chinese] |
+| Name | Platform |
+|------|------|
+| [Easy Upload](https://github.com/techmovie/easy-upload) | UserScript |
+| [Auto Feed](https://github.com/tomorrow505/auto_feed_js) ![chinese] | UserScript |
+| [PT种子搬运助手](https://greasyfork.org/zh-CN/scripts/402942-pt%E7%A7%8D%E5%AD%90%E6%90%AC%E8%BF%90%E5%8A%A9%E6%89%8B) ![chinese] | UserScript |
+| [Differential ![chinese]](https://github.com/LeiShi1313/Differential) | CLI |
 
 ### Upload Bot
 
@@ -336,7 +337,7 @@ Note
 | [Image Host Helper](https://greasyfork.org/en/scripts/401743-image-host-helper) |
 | [RED/OPS Upload Assistant](https://greasyfork.org/en/scripts/389583-red-ops-upload-assistant) |
 
-### Scripts for Seedbox
+## Scripts for Seedbox
 
 | Name |
 |------|
@@ -345,7 +346,7 @@ Note
 | [Swizzin](https://github.com/swizzin/swizzin) |
 | [Aniverse/inexistence](https://github.com/Aniverse/inexistence) |
 
-### CLI Tools
+## CLI Tools
 
 | Name | Description |
 |------|-------------|
@@ -357,7 +358,7 @@ Note
 | [torf-cli](https://github.com/rndusr/torf-cli) |
 | [anacrolix/torrent](https://github.com/anacrolix/torrent) |
 
-### Homelab
+## Homelab
 
 | Name | Description |
 |------|-------------|
